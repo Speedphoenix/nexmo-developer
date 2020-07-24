@@ -5,7 +5,7 @@ description: In this step you will handle chat events.
 
 # `Chat events`
 
-Earlier you created a conversation in the nexmo cli and added the two users to that conversation. Conversations, modelled as `NXMConversation` objects in the Client SDK, are how the users will communicate. You can learn more about conversations in the [Conversation API documentation](/conversation/concepts/conversation). Chat events, or `NXMEvent` objects, are sent using the conversation that you created, so to get chat event you will first need to fetch the conversation.
+Earlier you created a conversation in the Nexmo CLI and added the two users to that conversation. Conversations, modeled as `NXMConversation` objects in the Client SDK, are how the users will communicate. You can learn more about conversations in the [Conversation API documentation](/conversation/concepts/conversation). Chat events, or `NXMEvent` objects, are sent using the conversation that you created, so to get chat event you will first need to fetch the conversation.
 
 To do so, the following additions are required to `ChatViewController.swift`:
 
@@ -102,9 +102,9 @@ class ChatViewController: UIViewController {
 }
 ```
 
-`getConversation` uses the conversation ID from the nexmo cli to fetch the conversation, if that is sucessful `getEvents` is called to fetch the chat events. The Client SDK supports pagination so to get the chat events you must specify a page size.
+`getConversation` uses the conversation ID from the Nexmo CLI to fetch the conversation, if that is successful `getEvents` is called to fetch the chat events. The Client SDK supports pagination so to get the chat events you must specify a page size.
 
-Once the events are fetched they are processed by `processEvents`. In `processEvents` there is type casting to either a `NXMMemberEvent` or a `NXMTextEvent` which get appened to the conversationTextView by `showMemberEvent` and `showTextEvent` respectively. You can find out more about the supported event types in the [Conversation API documentation](/conversation/concepts/event).
+Once the events are fetched they are processed by `processEvents`. In `processEvents` there is type casting to either a `NXMMemberEvent` or a `NXMTextEvent` which get append to the `conversationTextView` by `showMemberEvent` and `showTextEvent` respectively. You can find out more about the supported event types in the [Conversation API documentation](/conversation/concepts/event).
 
 ## The Conversation Delegate
 

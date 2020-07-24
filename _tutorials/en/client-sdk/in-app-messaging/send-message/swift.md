@@ -5,7 +5,7 @@ description: In this step you will build the send message functionality.
 
 # `Sending a message`
 
-In the previous step you learnt about conversations and events, sending a message creates a new event and sends it via the conversation.
+In the previous step you learned about conversations and events, sending a message creates a new event and sends it via the conversation.
 
 To send a message, add the following function to `ChatViewController.swift`:
 

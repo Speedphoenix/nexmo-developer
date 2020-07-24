@@ -5,7 +5,7 @@ description: In this step you will build the second screen of the app.
 
 # Building the chat interface
 
-To be able to chat, you will need to create a new View Controller for the chat interface. From the xcode menu, select `File` > `New` > `File...`. Choose a *Cocoa Touch Class*, name it `ChatViewController` with a subclass of `UIViewController` and language of `Swift`.
+To be able to chat, you will need to create a new View Controller for the chat interface. From the Xcode menu, select `File` > `New` > `File...`. Choose a *Cocoa Touch Class*, name it `ChatViewController` with a subclass of `UIViewController` and language of `Swift`.
 
 REPLACE IMAGE
 ![Interface](/meta/client-sdk/ios-phone-to-app/interface.png)
@@ -77,7 +77,7 @@ In the `viewWillAppear` function an observer is added to the `keyboardDidShowNot
 
 ## The `UITextField` Delegate
 
-You will need to comform to the `UITextFieldDelegate` to know when the user has finished typing to move the input field to its original position. At the end of the file, add:
+You will need to conform to the `UITextFieldDelegate` to know when the user has finished typing to move the input field to its original position. At the end of the file, add:
 
 ```swift
 extension ChatViewController: UITextFieldDelegate {
@@ -89,7 +89,7 @@ extension ChatViewController: UITextFieldDelegate {
 
 ## Presenting the `ChatViewController`
 
-Now that the chat interface is built you will need to present the view controller from the log in screen you built earlier. You will need information about the logged in user to be passed betweeen the two view controllers, within `ChatViewController.swift` add:
+Now that the chat interface is built you will need to present the view controller from the log in screen you built earlier. You will need information about the logged in user to be passed between the two view controllers, within `ChatViewController.swift` add:
 
 ```swift 
 class ChatViewController: UIViewController {
@@ -106,7 +106,7 @@ class ChatViewController: UIViewController {
         fatalError("init(coder:) has not been implemented")
     }
 ```
-This defines a custom initaliser for the class which has a `User.type` as its parameter, which then gets stored in the local `user` property. Now that we have the user information you use the navigation bar to show who the user will be chatting with, in `viewDidLoad` add:
+This defines a custom initializer for the class which has a `User.type` as its parameter, which then gets stored in the local `user` property. Now that we have the user information you use the navigation bar to show who the user will be chatting with, in `viewDidLoad` add:
 
 ```swift
 navigationItem.leftBarButtonItem = 
@@ -126,7 +126,7 @@ class ChatViewController: UIViewController {
     }
 ```
 
-Now you are ready to present the chat interface along with the user information. To do this you will need to edit the `NXMClientDelegate` extenstion in the `ViewController.swift` file:
+Now you are ready to present the chat interface along with the user information. To do this you will need to edit the `NXMClientDelegate` extension in the `ViewController.swift` file:
 
 ```swift
 extension ViewController: NXMClientDelegate {
@@ -145,7 +145,7 @@ extension ViewController: NXMClientDelegate {
     ...
 }
 ```
-If the user connects sucessfully a `ChatViewController` will be presented with the user data needed.
+If the user connects successfully a `ChatViewController` will be presented with the user data needed.
 
 ## Build and Run
 
