@@ -129,5 +129,5 @@ An error is shown if encountered and the `statusLabel` is updated with the relev
 ## Build and Run
 
 `Cmd + R` to build and run again. If you tap on one of the log in buttons it will log the client in with the respective user:
-REPLACE IMAGE
-![Interface connected](/meta/client-sdk/ios-phone-to-app/interface-connected.png)
+
+![Interface connected](/images/client-sdk/ios-messaging/client.png)

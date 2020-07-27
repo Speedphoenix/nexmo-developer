@@ -45,5 +45,5 @@ This delegate function is called when the return button on the keyboard is press
 ## Build and Run
 
 `Cmd + R` to build and run again. You now have a functioning chat app! To chat simultaneously you can run the app on two different simulators/devices:
-REPLACE IMAGE
-![Interface connected](/meta/client-sdk/ios-phone-to-app/interface-connected.png)
+
+![Sent messages](/images/client-sdk/ios-messaging/messages.png)

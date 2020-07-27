@@ -60,5 +60,6 @@ class ViewController: UIViewController {
 ## Build and Run
 
 Run the project again (`Cmd + R`) to launch it in the simulator. 
-REPLACE IMAGE
-![Interface](/meta/client-sdk/ios-phone-to-app/interface.png)
+
+![Interface](/images/client-sdk/ios-messaging/login.png)
+

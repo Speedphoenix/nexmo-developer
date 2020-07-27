@@ -127,5 +127,5 @@ When a new event is received it is appended to the `events` array which in turn 
 ## Build and Run
 
 `Cmd + R` to build and run again. After logging in you will see that both users have joined the conversation as expected:
-REPLACE IMAGE
-![Interface connected](/meta/client-sdk/ios-phone-to-app/interface-connected.png)
+
+![Chat interface with connection events](/images/client-sdk/ios-messaging/chatevents.png)

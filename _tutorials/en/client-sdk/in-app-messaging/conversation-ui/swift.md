@@ -7,8 +7,7 @@ description: In this step you will build the second screen of the app.
 
 To be able to chat, you will need to create a new View Controller for the chat interface. From the Xcode menu, select `File` > `New` > `File...`. Choose a *Cocoa Touch Class*, name it `ChatViewController` with a subclass of `UIViewController` and language of `Swift`.
 
-REPLACE IMAGE
-![Interface](/meta/client-sdk/ios-phone-to-app/interface.png)
+![Xcode adding file](/images/client-sdk/ios-messaging/chatviewcontrollerswift.png)
 
 This will create a new file called `ChatViewController`, at the top import `NexmoClient`:
 
@@ -150,5 +149,5 @@ If the user connects successfully a `ChatViewController` will be presented with 
 ## Build and Run
 
 Run the project again (`Cmd + R`) to launch it in the simulator. If you log in with one of the users you will see the chat interface
-REPLACE IMAGE
-![Interface](/meta/client-sdk/ios-phone-to-app/interface.png)
+
+![Chat interface](/images/client-sdk/ios-messaging/chat.png)
