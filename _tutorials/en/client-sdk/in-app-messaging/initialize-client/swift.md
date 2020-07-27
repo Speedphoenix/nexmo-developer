@@ -44,7 +44,7 @@ class ViewController: UIViewController {
 
 ## Button Targets
 
-For the log in buttons to work, you need to add targets to them which will run a function when they are tapped. In the  `ViewController.swift` file add:
+For the log in buttons to work, you need to add targets to them which will run a function when they are tapped. In the `ViewController.swift` file add:
 
 ```swift
 class ViewController: UIViewController {
@@ -79,7 +79,7 @@ override func viewDidLoad() {
 
 ## Add the Log in function
 
-At the end of `ViewController.swift`, add the `login` function needed by the user property. This function sets the client delegate and logs in when the user property is set to a new value:
+At the end of `ViewController.swift`, add the `login` function needed by the user property. This function sets the client's delegate and logs in when the user property is set to a new value:
 
 ```swift
 class ViewController: UIViewController {

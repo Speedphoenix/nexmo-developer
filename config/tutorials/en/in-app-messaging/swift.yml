@@ -12,7 +12,7 @@ introduction:
 
     First, you will create a Conversation and two Users. Then, you will authenticate these Users and add them to the Conversation as Members.
 
-    Finally, you will implement chat functionality in your application, including the ability to view and send messages and be notified when either party is currently typing.
+    Finally, you will implement chat functionality in your application, including the ability to view and send messages.
 
     If you would like to follow along without building the app yourself, the completed project for this tutorial is available on [GitHub](https://github.com/nexmo-community/ClientSDK-app-to-app-chat-Swift).
 
