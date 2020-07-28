@@ -3,7 +3,7 @@ title: Chat events
 description: In this step you will handle chat events.
 ---
 
-# `Chat events`
+# Chat events
 
 Earlier you created a conversation in the Nexmo CLI and added the two users to that conversation. Conversations, modeled as `NXMConversation` objects in the Client SDK, are how the users will communicate. You can learn more about conversations in the [Conversation API documentation](/conversation/concepts/conversation). Chat events, or `NXMEvent` objects, are sent using the conversation that you created, so to get chat event you will first need to fetch the conversation.
 
