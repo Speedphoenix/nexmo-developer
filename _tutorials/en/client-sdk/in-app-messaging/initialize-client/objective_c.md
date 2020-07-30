@@ -5,9 +5,7 @@ description: In this step you will authenticate to the Vonage servers.
 
 # `NXMClient`
 
-Before you can start a chat, the Client SDK needs to authenticate to the Vonage servers. 
-
-The following additions are required to `ViewController.m`:
+Before you can start a chat, the Client SDK needs to authenticate to the Vonage servers. The following additions are required to `ViewController.m`.
 
 At the top of the file, import `NexmoClient` and `User`:
 
@@ -117,6 +115,6 @@ An error is shown if encountered and the `statusLabel` is updated with the relev
 
 ## Build and Run
 
-`Cmd + R` to build and run again. If you tap on one of the log in buttons it will log the client in with the respective user:
+Press `Cmd + R` to build and run again. If you tap on one of the log in buttons it will log the client in with the respective user:
 
 ![Interface connected](/images/client-sdk/ios-messaging/client.png)
