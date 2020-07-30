@@ -3,7 +3,7 @@ title: Xcode project and workspace
 description: In this step you create an Xcode project and add the iOS Client SDK library.
 ---
 
-# Xcode project & workspace
+# Xcode project and workspace
 
 You will be using the iOS Client SDK library inside an Xcode project you'll create next:
 
